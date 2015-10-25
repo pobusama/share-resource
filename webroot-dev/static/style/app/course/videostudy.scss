@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*!
+ * 文件描述
+ * @author reven
+ * @create 2015-10-25 16:27
+ */
+
+
+/*主体内容*/
+.content {
+  position: relative;
+  width: 980px;
+  height: 900px;
+  margin: 0px auto 0;
+  background: #f3f3f3;
+}
+
+.content > h1 {
+  background: #f3f3f3;
+  width: 980px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #01c675;
+}
+
+.content .player {
+  margin-left: 90px;
+  width: 800px;
+  height: 600px;
+}
+
+.content .prewview_surround {
+  position: relative;
+  margin-left: 40px;
+  width: 900px;
+  margin-top: 10px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.content .pre_view {
+  background: #f7f7f7;
+  margin-left: 50px;
+  position: relative;
+  background: #fff;
+  width: 800px;
+  height: 150px;
+}
+
+.content .pre_view .pre {
+  position: absolute;
+  background: #01c675;
+  left: -50px;
+  width: 50px;
+  height: 150px;
+  z-index: 3;
+}
+
+.content .pre_view .next {
+  position: absolute;
+  background: #01c675;
+  right: -50px;
+  width: 50px;
+  height: 150px;
+  z-index: 3;
+}
+
+.content .preview_container {
+  position: absolute;
+  width: auto;
+  height: 150px;
+  background: #fff;
+  left: 0px;
+}
+
+.content .preview_container li {
+  float: left;
+  width: 200px;
+  height: 150px;
+}
+
+.content .preview_container li a {
+  display: block;
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+}
+
+.content .preview_container li a:hover {
+  color: #01c675;
+}

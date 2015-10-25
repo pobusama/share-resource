@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+ - 文件描述
+ - @author reven
+ - @create 2015-10-25 12:47
+ -->
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="任文凯">
+    <meta name="keywords" content="关键字">
+    <meta name="description" content="描述语句">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <title>Clangurage.html</title>
+
+    <!-- 公共样式-->
+    <!-- coolie-->
+    <link type="text/css" href="/static/style/common/bootstrap.min.css" rel="stylesheet">
+    <!-- /coolie-->
+
+    <!-- coolie-->
+    <link type="text/css" rel="stylesheet" href="/static/style/common/coursepagecommen.css" />
+    <!-- /coolie-->
+
+    <!-- 业务样式-->
+    <!-- coolie-->
+    <link type="text/css" rel="stylesheet" href="/static/style/app/course/Clanguage.css" />
+    <!-- /coolie-->
+</head>
+<body ontouchstart="">
+    {{include ../common/courseheader.html}}
+    <div class="content">
+        <div class="course_introduce">
+            <div class="img"><img src="/static/images/course_img/c_img_big.png"  width="310" height="230" /></div>
+            <h1>C语言课程设计</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;C语言，经久不衰，老而弥坚，因其微言大义，简约而不简单。哈工大C语言，经典延续，口碑丰厚，因其以快乐为本，实用为根，化繁入简，新意迭出。
+                用现代视角解读C语言，举一反三、融会贯通，用线上工具辅助学习，思维培养和能力锻炼贯彻始终，培养学生“我的学习我做主”、“人人都是程序猿”！
+            </p>
+            <a href="/course/studyonline/">在线学习</a>
+            <a href="javascript:void(0)">互动讨论</a>
+        </div>
+        <div class="course_point">
+            <h1>反转课堂</h1>
+            <ul id="course_point_select">
+                <a href="javascript:void(0)"  data-toggle="modal" data-target="#text-inputer"><span></span>第一章 为什么要学C语言</a>
+                <a href="javascript:void(0)"  data-toggle="modal" data-target="#text-inputer"><span></span>第二章 C语言数据类型</a>
+                <a href="javascript:void(0)"  data-toggle="modal" data-target="#text-inputer"><span></span>第三章 简单的算数运算和表达式</a>
+                <a href="javascript:void(0)"  data-toggle="modal" data-target="#text-inputer"><span></span>第四章 键盘输入和屏幕输出</a>
+                <a href="javascript:void(0)"  data-toggle="modal" data-target="#text-inputer"><span></span>第五章 选择控制结构</a>
+                <a href="javascript:void(0)"  data-toggle="modal" data-target="#text-inputer"><span></span>第六章 循环控制结构</a>
+            </ul>
+            <div class="toolbar">
+                <a class="pre" href="javascript:void(0)"></a>
+                <a href="javascript:void(0)" class="active">1</a>
+                <a href="javascript:void(0)">2</a>
+                <a href="javascript:void(0)">3</a>
+                <a class="next" href="javascript:void(0)"></a>
+            </div>
+
+            <div class="item1">
+                <span></span>
+                <ul>
+                    <a href="javascript:void(0)">C语言的历史</a>
+                    <a href="javascript:void(0)">C语言的地位</a>
+                    <a href="javascript:void(0)">C语言的趋势</a>
+                    <a href="javascript:void(0)">C语言的未来</a>
+                </ul>
+            </div>
+        </div>
+        <div class="course_source">
+            <div class="course_source_items">
+                <h2>教学档案</h2>
+                <span><strong class="teaching_archives"></strong></span>
+                <ul>
+                    <a href="javascript:void(0)">教学大纲</a>
+                    <a href="javascript:void(0);">教学日历</a>
+                    <a href="javascript:void(0);">教学计划</a>
+                    <a href="javascript:void(0);">课程安排</a>
+                    <a href="javascript:void(0);">考试大纲</a>
+                    <a href="javascript:void(0);">教材信息</a>
+                    <a href="javascript:void(0);">建设规划</a>
+                    <a href="javascript:void(0);">考试安排</a>
+                    <a href="javascript:void(0);">成绩评定</a>
+                </ul>
+            </div>
+
+            <div class="course_source_items">
+                <h2>在线学习</h2>
+                <span><strong class="online_study"></strong></span>
+                <ul>
+                    <a href="javascript:void(0);">教学教案</a>
+                    <a href="javascript:void(0);">电子课件</a>
+                    <a href="javascript:void(0);">重点难点</a>
+                    <a href="javascript:void(0)">课程视频</a>
+                    <a href="javascript:void(0);">电子教材</a>
+                    <a href="javascript:void(0);">案例学习</a>
+
+                </ul>
+            </div>
+
+            <div class="course_source_items">
+                <h2>碎片学习</h2>
+                <span><strong class="fragment_study"></strong></span>
+                <ul>
+                    <a href="javascript:void(0);">知识点</a>
+                    <a href="javascript:void(0);">微视频</a>
+
+                </ul>
+            </div>
+
+            <div class="course_source_items">
+                <h2>自学自测</h2>
+                <span><strong class="self_study"></strong></span>
+                <ul>
+                    <a href="javascript:void(0);">习题库</a>
+                    <a href="javascript:void(0);">试题库</a>
+                    <a href="javascript:void(0);">在线测试</a>
+
+                </ul>
+            </div>
+
+            <div class="course_source_items">
+                <h2>实践园地</h2>
+                <span><strong class="practice_study"></strong></span>
+                <ul>
+                    <a href="javascript:void(0);">实验指导</a>
+                    <a href="javascript:void(0);">实训项目</a>
+                    <a href="javascript:void(0);">OJ系统</a>
+                    <a href="javascript:void(0);">ACM竞赛</a>
+
+                </ul>
+            </div>
+
+            <div class="course_source_items">
+                <h2>辅助系统</h2>
+                <span><strong class="auxiliary_system"></strong></span>
+                <ul>
+                    <a href="javascript:void(0);">作业提交</a>
+                    <a href="javascript:void(0);">竞赛报名</a>
+                    <a href="javascript:void(0);">腾云优课</a>
+                    <a href="javascript:void(0);">互动平台</a>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    {{include ../common/footer.html}}
+    <!-- 点击弹出Modal -->
+    <div class="modal fade" id="text-inputer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">本章要点</h4>
+                </div>
+                <form class="text-form">
+                    <div class="modal-body">
+                        <ul>
+                            <li><a href="javascript:void(0)">第一节 C语言的历史</a></li>
+                            <li><a href="javascript:void(0)">第一节 C语言的历史</a></li>
+                            <li><a href="javascript:void(0)">第一节 C语言的历史</a></li>
+                            <li><a href="javascript:void(0)">第一节 C语言的历史</a></li>
+                            <li><a href="javascript:void(0)">第一节 C语言的历史</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+
+                        <button id="text-form-reset" type="reset" data-dismiss="modal" aria-label="Close" class="btn btn-default pull-right"><span class="glyphicon glyphicon-repeat"></span>返回</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- coolie-->
+    <script src="/static/js/jquery-1.10.1.min.js"></script>
+    <!--/coolie-->
+
+    <!-- coolie-->
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- /coolie-->
+
+    <script coolie src="../../coolie.min-1.1.1.js"
+            data-config="/static/js/coolie-config.js"
+            data-main="./course/Clanguage.js"></script>
+</body>
+</html>

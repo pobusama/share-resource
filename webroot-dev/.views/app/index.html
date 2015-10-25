@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--
+ - 文件描述
+ - @author reven
+ - @create 2015-10-25 00:42
+ -->
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="任文凯">
+    <meta name="keywords" content="share">
+    <meta name="description" content="主页">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <title>主页</title>
+
+    <!--业务样式-->
+    <!--coolie-->
+    <link rel="stylesheet" href="static/style/app/index.css"/>
+    <!--/coolie-->
+</head>
+
+<!--公用模块-->
+{{include ./common/header.html}}
+
+<!--业务模块-->
+<div class="content">
+    <!-- 教师团队-->
+    <div class="teacher_team">
+        <img class="face_window" src="/static/images/face_window.png" width="150" height="228"/>
+        <img class="face_photo" alt="教师照片" src="/static/images/teachers/photo.jpg" width="114" height="160"/>
+
+        <h1>课程负责人</h1>
+
+        <h2>胡春安</h2>
+
+        <p>副教授,计算机基础教研室主任。2011年评为江西省第七批中青年骨干教师,2012年评为校优秀教研室主任</p>
+        <a class="social_link" href="javascript:;"><span class="xinlang_wb"></span></a>
+        <a class="social_link" href="javascript:;"><span class="tencent_wb"></span></a>
+
+    </div>
+    <!-- 课程列表-->
+    <ul class="course_list">
+        <h1>课程列表</h1><a href="javascript:;">More</a>
+        <li><a href="/course/Clanguage">C语言程序设计</a></li>
+        <li><a href="javascript:;">大学计算机技术</a></li>
+        <li><a href="javascript:;">Visual Fox Pro数据库应用技术</a></li>
+
+    </ul>
+
+    <!-- 教学公告-->
+    <div class="teach_announce">
+        <h4><a class="pre_announce" href="javascript:;"></a>教学公告<a class="next_announce"
+                                                                   href="javascript:;"></a></h4>
+
+        <ul class="announce_info">
+            <a href="javascript:;">公告1公告1公告1公告1公告1公告1公告1公告1公告1</a>
+            <a href="javascript:;">公告2公告2公告2公告2公告2</a>
+            <a href="javascript:;">公告4公告4公告4公告4公告4</a>
+            <a href="javascript:;">公告5公告5公告5公告5公告5公告5公告5公告5公告5公告5公告5</a>
+        </ul>
+
+    </div>
+
+    <!-- 教学相关-->
+    <div class="about_teaching">
+        <h1>教学相关</h1>
+
+        <div class="about_teaching_items">
+            <h2>教学档案</h2>
+            <span><strong class="teaching_archives"></strong></span>
+            <ul>
+                <a href="javascript:;">教学大纲</a>
+                <a href="javascript:;">教学日历</a>
+                <a href="javascript:;">教学计划</a>
+                <a href="javascript:;">课程安排</a>
+                <a href="javascript:;">考试大纲</a>
+                <a href="javascript:;">教材信息</a>
+                <a href="javascript:;">建设规划</a>
+                <a href="javascript:;">考试安排</a>
+                <a href="javascript:;">成绩评定</a>
+            </ul>
+        </div>
+        <div class="about_teaching_items aux">
+            <h2>辅助系统</h2>
+            <span><strong class="auxiliary_system"></strong></span>
+            <ul>
+                <a href="/teaching/homework/">作业提交</a>
+                <a href="/competition/register/">竞赛报名</a>
+                <a href="/study/onlinetest/">OJ自测系统</a>
+                <a href="/source/tengyunapp/">腾云优课</a>
+                <a href="/bbs/home/">互动平台</a>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 登陆组件-->
+    <div id="login-panel" class="panel">
+        <div class="panel-heading">
+            <h3>请登录您的账户</h3>
+        </div>
+        <form role="form">
+            <div class="panel-body">
+                <div class="input-group">
+                    <h5>帐号：</h5>
+                    <input type="text" class="form-control" placeholder="请输入用户名" aria-describedby="basic-addon1">
+
+                </div>
+                <div class="input-group">
+                    <h5>密码：</h5>
+                    <input type="password" class="form-control" placeholder="请输入密码" aria-describedby="basic-addon1">
+
+                </div>
+
+                <div class="input-group barcode">
+                    <div class="barcode-img">验证码</div>
+                    <input type="text" class="barcode-input" placeholder="请输入验证码" aria-describedby="basic-addon1">
+
+                </div>
+                <div class="remember-passwd">
+
+                    <label>
+                        记住密码
+                        <input type="checkbox" value="">
+
+                    </label>
+
+                </div>
+
+
+                <a href="/user/register/" id="user-regist" class="btn btn-default pull-left">注册账户</a>
+                <a href="javascript:;" id="user-login" class="btn btn-primary pull-right">登录账户</a>
+
+            </div>
+        </form>
+
+    </div>
+    <div id="logined-panel" class="panel">
+        <div class="panel-heading">
+            <h3>账户已登录-ID:<span>罗纳尔多</span></h3>
+        </div>
+        <form role="form">
+            <div class="panel-body">
+                <div class="user-info">
+                    <a href="#" class="user-img"><img src="/static/images/user/1.png"/></a>
+
+                </div>
+                <button type="button" id="user-logout" class="btn btn-primary pull-right">登出账户</button>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--公共模块-->
+{{include ./common/footer.html }}
+
+<!--coolie-->
+<script src="/static/js/jquery-1.10.1.min.js"></script>
+<!--/coolie-->
+
+<!--注意：-->
+<!--1. 这里的 script 标签多了 coolie 属性-->
+<!--2. 引用了 coolie.min.js-->
+<!--3. 增加了 data-config 属性-->
+<!--4. 增加了 data-main 属性-->
+<script coolie src="../../coolie.min-1.1.1.js"
+        data-config="/static/js/coolie-config.js"
+        data-main="index.js"></script>
+
+</body>
+</html>

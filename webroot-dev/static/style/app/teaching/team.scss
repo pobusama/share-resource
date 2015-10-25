@@ -1,0 +1,441 @@
+@charset "utf-8";
+/*!
+ * 文件描述
+ * @author reven
+ * @create 2015-10-25 14:45
+ */
+
+.content {
+  height: auto;
+}
+
+.info_card {
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.info_card > h1 {
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 200px;
+  background-color: #01c675;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-weight: normal;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.info_card > h1 span {
+  position: absolute;
+  top: 1px;
+  right: -5px;
+  width: 30px;
+  height: 30px;
+  background: url(../../../images/bigger_icons.png) no-repeat 0 -1204px;
+  display: block;
+}
+
+/*课程负责人*/
+.teacher_team {
+  margin: 0px auto;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.face_window {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 30px;
+}
+
+.face_photo {
+  position: absolute;
+  top: 20px;
+  left: 38px;
+}
+
+.teacher_team > h2 {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  color: #999999;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  top: 25px;
+  left: 230px;
+}
+
+.teacher_team > p {
+  position: absolute;
+  z-index: 2;
+  top: 54px;
+  width: 600px;
+  right: 150px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  top: 70px;
+  color: #464545;
+  line-height: 22px;
+}
+
+.social_link {
+  float: right;
+  width: 50px;
+  height: 42px;
+  background: #fff;
+  margin-top: 183px;
+  margin-left: 10px;
+  border-bottom: #01c675 3px solid;
+}
+
+.social_link:hover {
+  background: #01c675;
+  border-bottom: #009e5d 3px solid;
+}
+
+.xinlang_wb {
+  display: block;
+  background: url(../../../images/bigger_icons.png) no-repeat 0 -104px;
+  height: 40px;
+  height: 42px;
+}
+
+.tencent_wb {
+  display: block;
+  background: url(../../../images/bigger_icons.png) no-repeat 0 -148px;
+  height: 40px;
+  height: 40px;
+}
+
+/*师资队伍*/
+.teacher_card {
+  border-bottom: 1px solid #CCCCCC;
+  width: 488px;
+  height: 200px;
+  float: left;
+  position: relative;
+}
+
+.tec_photo {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.teacher_card h1 {
+  margin-top: 16px;
+  margin-left: 80px;
+  float: left;
+  display: block;
+  color: #999999;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+.teacher_card p {
+  float: left;
+  margin-top: 0px;
+  margin-left: 80px;
+  width: 252px;
+  height: 150px;
+  overflow: hidden;
+  right: 150px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #464545;
+  line-height: 21px;
+}
+
+.teacher_card a {
+  position: absolute;
+  top: 18px;
+  right: 5px;
+  color: #01c675;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+
+/*团队介绍*/
+.teacher_team_info {
+  width: 510px;
+  margin: 20px auto;
+}
+
+.info_content {
+  width: 510px;
+  float: left;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #464545;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+
+.info_content span {
+  font-size: 15px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #009e5d;
+}
+
+.info_content table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info_content table, .info_content td, .info_content tr {
+  border: 1px solid #01c675;
+  text-align: center;
+}
+
+.info_content table tr td {
+  background: #f3f3f3;
+  max-width: 100px;
+}
+
+.info_content img {
+  margin: 5px auto;
+}
+
+.info_content b {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.img_content {
+  width: 510px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*成果展示*/
+.workout_info {
+  overflow: hidden;
+  width: 510px;
+  margin: 20px auto;
+}
+
+/*内导航*/
+.team_nav {
+  position: fixed;
+  background-color: #01c675;
+  width: 24px;
+  height: 276px;
+  margin: 0px auto;
+  left: 50%;
+  margin-left: 490px;
+  z-index: 1;
+}
+
+.team_nav li {
+  border-bottom: 1px dashed #ccc;
+}
+
+.team_nav li a {
+  display: block;
+  width: 10px;
+  height: 54px;
+  color: #fff;
+  font-size: 12px;
+  padding: 7px 7px;
+  font-family: "youyuan";
+}
+
+.team_nav li .selected {
+  color: #01c675;
+  background-color: #fff;
+  box-shadow: #101010 0px 3px 2px;
+  width: 12px;
+}
+
+.team_nav li a:hover {
+  color: #01c675;
+  background-color: #fff;
+  width: 12px;
+}
+
+/*个人详情悬浮页*/
+.teachers_detail_wrap {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background-color: rgba(120, 120, 120, 0.8);
+}
+
+.teachers_detail_wrap tbody {
+}
+
+.teachers_detail {
+  position: relative;
+  left: 220px;
+  top: 20px;
+  width: 900px;
+  height: 630px;
+  background: url(../../../images/background_stage_img/grey_card.png) repeat 0 0;
+  box-shadow: 4px 4px 10px #333;
+}
+
+.teachers_detail .back {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 64px;
+  height: 64px;
+  z-index: 2;
+}
+
+.teachers_detail .back a {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-image: url(../../../images/bigger_icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 -1329px;
+  -webkit-transition: all .28s ease-in .1s;
+  transition: all .1s ease-in .1s;
+  border-radius: 32px;
+}
+
+.teachers_detail .back a:hover {
+  background-image: url(../../../images/bigger_icons.png);
+  background-position: 0 -1262px;
+}
+
+.teachers_detail_top {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  width: 100%;
+  height: 220px;
+  box-shadow: 2px 2px 8px #666;
+}
+
+.teachers_detail_top .basic_info {
+  float: left;
+  margin-top: 60px;
+  margin-left: 40px;
+  width: 600px;
+  height: 80px;
+  border-bottom: 1px solid #DDE0E5;
+}
+
+.teachers_detail_top .contact_info {
+  float: left;
+  margin-left: 40px;
+  width: 600px;
+  height: 80px;
+  border-top: 1px solid #fff;
+}
+
+.teachers_detail h1 {
+  width: 200px;
+  height: 40px;
+  line-height: 60px;
+  font-size: 26px;
+  font-family: "微软雅黑";
+  color: #353638;
+  font-weight: normal;
+}
+
+.teachers_detail h2 {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 21px;
+  font-family: "微软雅黑";
+  color: #C3C3C5;
+  font-weight: normal;
+}
+
+.teachers_detail_top .contact_info tel, email {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #333333;
+}
+
+.teachers_detail .detail_img {
+  z-index: 1;
+  position: absolute;
+  right: 100px;
+  top: 80px;
+  background: #01c675;
+  padding: 2px;
+  width: 140px;
+  height: 150px;
+  box-shadow: 2px 2px 8px #333;
+}
+
+.teachers_detail .info_body {
+  position: absolute;
+  top: 220px;
+  background: url(../../../images/background_stage_img/green_card.png) repeat 0 0;
+  width: 100%;
+  height: 410px;
+}
+
+.teachers_detail .detail_card {
+  margin: 60px auto;
+  width: 840px;
+  height: 320px;
+  background: url(../../../images/background_stage_img/grey_card.png) repeat 0 0;
+  box-shadow: 2px 2px 8px #666;
+}
+
+.detail_card .left {
+  float: left;
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 220px;
+  height: 220px;
+  padding: 10px;
+  border-right: 2px solid #01c675;
+}
+
+.detail_card .left p, .middle p, .right p {
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 252px;
+  height: 150px;
+  overflow: hidden;
+  right: 150px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #464545;
+  line-height: 21px;
+}
+
+.detail_card .middle {
+  float: left;
+  margin-top: 40px;
+  height: 220px;
+  width: 296px;
+  padding: 10px;
+}
+
+.detail_card .right {
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+  width: 220px;
+  height: 220px;
+  padding: 10px;
+  border-left: 2px solid #01c675;
+}

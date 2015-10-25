@@ -1,0 +1,164 @@
+@charset "utf-8";
+/*!
+ * 文件描述
+ * @author reven
+ * @create 2015-10-25 05:43
+ */
+
+/* 课程页面CSS */
+/*CSS清零*/
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-size: 12px
+}
+
+img {
+  border: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*清浮动*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+body {
+  background: #303030;
+}
+
+/*头部*/
+header {
+  height: 110px;
+  width: 980px;
+  margin: 0 auto;
+  background: #01c675;
+}
+
+header img {
+  margin: 10px 100px;
+}
+
+/*导航部分*/
+nav {
+  height: 54px;
+  background: #fff;
+  width: 980px;
+  margin: 2px auto;
+  z-index: 1;
+}
+
+nav > a {
+  display: block;
+  height: 54px;
+  line-height: 54px;
+  width: 139px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid #dfdfdf;
+  color: #a1a1a1;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+nav > .active {
+  background: #01c675;
+  border-bottom: 4px #00a05e solid;
+  height: 52px;
+  color: #fff;
+}
+
+nav a:hover {
+  background: #01c675;
+  border-bottom: 4px #00a05e solid;
+  height: 54px;
+  color: #fff;
+}
+
+/*主体内容*/
+.content {
+  position: relative;
+  width: 980px;
+  height: 605px;
+  margin: 10px auto 0;
+}
+
+.content > h1 {
+  width: 980px;
+  height: 30px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #FFF;
+  background: #01c675;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+/*页足*/
+footer {
+  height: 80px;
+  width: 980px;
+  margin: 10px auto 0;
+  background: #01c675;
+  padding-top: 1px;
+}
+
+footer p {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #333;
+}
+
+.footer_link {
+  margin: 10px auto 0;
+  height: 20px;
+  width: 140px;
+}
+
+.footer_link > a {
+  float: left;
+  text-align: center;
+  display: block;
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.footer_link > a:hover {
+  height: inherit;
+  background: none;
+  border: none;
+  padding: none;
+  line-height: inherit;
+  color: #FF0;
+}

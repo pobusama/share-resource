@@ -1,0 +1,32 @@
+{
+  "js": {
+    "main": [
+      "./static/js/app/**/*.js"
+    ],
+    "coolie-config.js": "./static/js/coolie-config.js",
+    "dest": "./static/js/",
+    "chunk": []
+  },
+  "css": {
+    "dest": "./static/css/",
+    "minify": {
+      "compatibility": "ie7"
+    }
+  },
+  "html": {
+    "src": [
+      "./.views/**/*.html"
+    ],
+    "minify": true
+  },
+  "resource": {
+    "dest": "./static/res/",
+    "minify": true
+  },
+  "copy": [],
+  "dest": {
+    "dirname": "../webroot-pro/",
+    "host": "",
+    "versionLength": 32
+  }
+}

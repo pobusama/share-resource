@@ -1,0 +1,155 @@
+@charset "utf-8";
+/*!
+ * 文件描述
+ * @author reven
+ * @create 2015-10-25 00:57
+ */
+
+/* 登录页面CSS */
+/*CSS清零*/
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-size: 12px
+}
+
+img {
+  border: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*清浮动*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+body {
+  background: #303030;
+}
+
+.login_body {
+  background: #fff;
+  width: 500px;
+  height: 300px;
+  margin: 150px auto;
+}
+
+.login_body h1 {
+  width: 500px;
+  height: 80px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #FFF;
+  background: #01c675;
+  text-align: center;
+  line-height: 80px;
+  border-bottom: 0.5px solid #00b168;
+}
+
+.login_body ul {
+  width: 300px;
+  height: 100px;
+  margin: 25px auto;
+  margin-bottom: 10px;
+}
+
+.login_body ul input {
+  float: left;
+  height: 28px;
+  width: 208px;
+  border-bottom: 1px solid #dddddd;
+  font-family: "微软雅黑";
+  font-size: 15px;
+  color: #adadad;
+  padding: 10px 46px;
+}
+
+#username {
+  background: url(../../../images/login_bg.png) no-repeat -44px -18px;
+}
+
+#password {
+  background: url(../../../images/login_bg.png) no-repeat -44px -72px;
+  border-bottom: none;
+}
+
+.login_body .button_area {
+  width: 300px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.login_body .button_area input[type="button"] {
+  width: 120px;
+  height: 40px;
+  color: #FFF;
+  background: #01c675;
+  border-bottom: 3px solid #009e5d;
+  position: absolute;
+  cursor: pointer;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+
+.login_body .button_area input[type="button"]:hover {
+  border: none;
+}
+
+#login {
+  left: 0;
+  top: 0;
+}
+
+#regist {
+  right: 0;
+  top: 0;
+}
+
+.login_body .button_area .remanber {
+  position: absolute;
+  padding: 10px 0;
+  left: 0;
+  width: 140px;
+  height: 10px;
+  font-family: "微软雅黑";
+  font-size: 15px;
+  bottom: 0;
+  font-family: "微软雅黑";
+  font-size: 15px;
+  color: #adadad;
+  padding-left: 160px;
+}
+
+.login_body .button_area .remanber input[type="checkbox"] {
+  position: absolute;
+  right: 0;
+  top: 14px;
+}
+
+

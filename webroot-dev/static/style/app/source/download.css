@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*!
+ * 下载页面
+ * @author reven
+ * @create 2015-10-25 10:38
+ */
+.content {
+  background: #fff;
+  height: auto; }
+
+.content h1 a {
+  cursor: pointer;
+  float: left;
+  height: 30px;
+  width: 490px;
+  color: #fff;
+  z-index: 1; }
+
+.content h1 .active {
+  cursor: pointer;
+  background: #fff;
+  width: 488px;
+  color: #01c675; }
+
+.content .download_top_bar {
+  width: 980px;
+  height: 77px;
+  padding: 0 10px; }
+
+.content .download_top_bar .basic_info {
+  width: 960px;
+  height: 30px;
+  line-height: 30px;
+  color: #01c675;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  text-align: right; }
+
+.content .download_top_bar .tool_bar {
+  width: 938px;
+  height: 45px;
+  background: #f7f7f7;
+  color: #666;
+  border: 1px solid #ccc;
+  position: relative;
+  padding: 0 30px;
+  line-height: 45px;
+  border-radius: 5px 0px 0px 5px;
+  -moz-border-radius: 5px;
+  font-family: "微软雅黑";
+  padding-right: 0; }
+
+.content .download_top_bar .tool_bar .left_bar {
+  float: left;
+  border-right: 1px solid #E5E5E5;
+  width: 354px; }
+
+.content .download_top_bar .tool_bar .left_bar input[type="button"] {
+  height: 30px;
+  background: #01c675;
+  color: #fff;
+  padding: 0 10px;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  margin-right: 5px;
+  cursor: pointer; }
+
+.content .download_top_bar .tool_bar .left_bar input[type="button"]:hover {
+  background: #009e5d; }
+
+.content .download_top_bar .tool_bar .mid_bar {
+  float: left;
+  width: 244px;
+  padding: 0 10px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #E5E5E5; }
+
+.content .download_top_bar .tool_bar .right_bar {
+  float: left;
+  padding: 0 10px;
+  border-left: 1px solid #fff; }
+
+.content .file_area {
+  width: 980px;
+  height: 450px;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+.content .file_area .file_area_content {
+  width: 940px;
+  height: auto;
+  background: #fff;
+  padding: 0 10px; }
+
+.content .file_area .file_area_content li {
+  cursor: pointer;
+  width: 960px;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  line-height: 40px;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #666; }
+
+.content .file_area .file_area_content li .file_left {
+  float: left;
+  width: 374px;
+  padding-left: 11px; }
+
+.content .file_area .file_area_content li .file_left input[type="checkbox"] {
+  cursor: pointer;
+  margin-right: 4px; }
+
+.content .file_area .file_area_content li .file_mid {
+  float: left;
+  width: 254px;
+  padding-left: 11px; }
+
+.content .file_area .file_area_content li .file_right {
+  float: left;
+  padding-left: 11px; }

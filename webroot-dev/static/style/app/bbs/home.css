@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*!
+ * 文件描述
+ * @author reven
+ * @create 2015-10-25 16:55
+ */
+/*内容*/
+@font-face {
+  font-family: 'MyWebFont';
+  src: url("../../fonts/glyphicons-halflings-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../../fonts/glyphicons-halflings-regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+.content {
+  height: auto; }
+
+button {
+  font-family: "微软雅黑"; }
+
+.container {
+  width: 100%; }
+
+.body-left {
+  padding: 40px 0;
+  padding-bottom: 0;
+  background: #fff; }
+
+.body-right {
+  padding-top: 50px;
+  position: relative;
+  background-color: #fff; }
+
+/*贴主*/
+.uper {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 2px #666; }
+
+/*输入区*/
+.input-area {
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 5px;
+  height: 200px;
+  border: 2px solid #ccc;
+  cursor: pointer; }
+
+.input-area:hover {
+  border: 2px solid #01c675; }
+
+.text-form button {
+  font-family: "微软雅黑";
+  font-size: 16px;
+  margin: 10px 10px; }
+
+.text-form button[type="submit"] {
+  margin-right: 34px; }
+
+.text-form button span {
+  margin-right: 10px; }
+
+.glyphicon {
+  margin-right: 5px; }
+
+.input-area button span {
+  margin-right: 0; }
+
+/*用户讨论列表*/
+.media-list {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 80px; }
+
+.media-list > h1 {
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #428BCA;
+  padding-top: 10px; }
+
+.media-list > h1 span {
+  padding-right: 10px; }
+
+.media-list > .media {
+  border-bottom: 2px solid #ccc;
+  padding: 20px 0; }
+
+.media-list > .media button {
+  font-size: 14px;
+  font-family: "微软雅黑"; }
+
+.media-list > .media button span {
+  padding-right: 5px; }
+
+.media-body > h4 {
+  font-size: 16px;
+  font-family: "微软雅黑"; }
+
+.media-body > h6 {
+  margin-left: 0px;
+  color: #428bca;
+  font-family: "微软雅黑"; }
+
+.media-body > p {
+  color: #666;
+  line-height: 1.5;
+  margin-top: 15px;
+  text-indent: 2em;
+  padding: 10px 0px;
+  padding-right: 10px;
+  font-family: "微软雅黑"; }
+
+/*跟帖样式*/
+.follows {
+  width: 100%; }
+
+.follows .media-heading {
+  font-size: 14px; }
+
+.follows .media-heading b {
+  margin: 0 5px;
+  color: #428bca;
+  font-family: "微软雅黑"; }
+
+.follows .pull-left {
+  font-size: 10px; }
+
+/*分页导航*/
+.page-navigation {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0; }
+
+.pagination li a:hover {
+  height: inherit; }
+
+/*模态框样式*/
+.modal .modal-dialog {
+  width: 1000px; }
+
+.modal-title {
+  font-size: 20px;
+  font-family: "微软雅黑"; }
+
+/*登录框*/
+.panel {
+  border-radius: 0;
+  margin: 0;
+  width: 300px;
+  box-shadow: 2px 2px 2px #999; }
+
+.panel-heading h3 {
+  font-size: 20px;
+  font-family: "微软雅黑"; }
+
+.panel-fixed {
+  right: 165px;
+  position: fixed;
+  top: 0; }
+
+.input-group {
+  margin-bottom: 10px; }
+
+.input-group span {
+  top: 0px; }
+
+.panel .checkbox {
+  font-family: "微软雅黑";
+  font-size: 15px; }
+
+.panel-body button {
+  width: 46%; }
+
+.barcode-container {
+  padding: 0;
+  padding-right: 48px; }
+
+.barcode {
+  width: 150px; }
+
+.barcode-img {
+  width: 100px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center; }

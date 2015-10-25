@@ -1,0 +1,420 @@
+@charset "utf-8";
+/*!
+ * 文件描述
+ * @author reven
+ * @create 2015-10-25 15:56
+ */
+
+
+body {
+  font-size: 12px
+}
+
+.content{
+  height: auto;
+}
+/*课程介绍概括*/
+
+.course_introduce {
+  position: relative;
+  float: left;
+  width: 980px;
+  height: 300px;
+  background: #f3f3f3;
+}
+
+.boutique {
+  position: absolute;
+  z-index: 3;
+  width: 55px;
+  height: 50px;
+  right: 2px;
+  top: -2px;
+}
+
+.course_introduce .img {
+  float: left;
+  width: 310px;
+  height: 230px;
+  margin: 25px 0 25px 20px;
+  background: #fff;
+  padding: 10px;
+  border: 1px #01c675 solid;
+}
+
+.course_introduce .middle_content {
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+.course_introduce h1 {
+  float: left;
+  width: 200px;
+  margin-top: 0px;
+  margin-left: 20px;
+  color: #01c675;
+  font-size: 30px;
+  font-family: "微软雅黑";
+  font-weight: normal;
+}
+
+.course_introduce p {
+  float: left;
+  width: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  line-height: 20px;
+  color: #333;
+}
+
+.course_introduce p strong {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.course_introduce .right_content {
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.right_content .link_btn {
+  float: left;
+  width: 300px;
+  margin-top: 25px;
+}
+
+.link_btn a {
+  float: left;
+  display: block;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #01c675;
+  background: #fff;
+  color: #01c675;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+
+.link_btn a:hover {
+  border: 1px solid #00a05e;
+  background: #01c675;
+  color: #fff;
+}
+
+.link_btn .no_margin_left {
+  margin-left: 0;
+}
+
+.right_content li {
+  float: left;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+
+.right_content li strong {
+  font-weight: bold;
+  font-size: 12px;
+  color: #01c675;
+  font-family: "微软雅黑";
+}
+
+/*课程介绍细节*/
+.course_introduce_detail {
+  position: relative;
+  float: left;
+  width: 980px;
+  height: 300px;
+  background: #f3f3f3;
+  margin-top: 10px;
+}
+
+.course_introduce_detail > h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  color: #01c675;
+  width: 100px;
+  margin: 20px 0 0 20px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.course_introduce_detail > p {
+  width: 940px;
+  margin: 10px 0 0 20px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #333;
+  line-height: 20px;
+}
+
+.course_introduce_detail > p strong {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.course_introduce_detail > p a {
+  display: block;
+  border: 1px solid #01c675;
+  width: 100px;
+  height: 18px;
+  line-height: 18px;
+  background: #fff;
+  text-align: center;
+  color: #01c675;
+  float: right;
+  margin-top: 20px;
+}
+
+.course_introduce_detail > p a:hover {
+  background: #01c675;
+  color: #fff;
+}
+
+.document_link {
+  height: 126px;
+  margin-top: 30px;
+}
+
+.document_link li {
+  float: left;
+  width: 110px;
+  height: 126px;
+  margin-left: 20px;
+}
+
+.document_link li:hover {
+  border-bottom: 4px solid #01c675;
+  height: 122px;
+}
+
+.document_link li a {
+  display: block;
+  text-align: center;
+  width: 110px;
+  color: #333;
+  margin-top: 2px;
+}
+
+.document_link li a:hover {
+  text-decoration: underline;
+  color: #01c675;
+}
+
+/*教学单元*/
+.course_unit {
+  position: relative;
+  float: left;
+  width: 980px;
+  height: 800px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.course_unit .left {
+  float: left;
+  width: 500px;
+  margin: 10px 0 0 10px;
+  background: #f3f3f3;
+  height: 580px;
+  border: 1px solid #ccc;
+}
+
+.course_unit .left > h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  color: #01c675;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  margin: 10px 0 0 10px;
+}
+
+.course_unit .left > ul {
+  float: left;
+  width: 400px;
+  height: auto;
+  margin: 10px 0 0 0px;
+}
+
+.course_unit .left .list_1 {
+  float: left;
+  width: 260px;
+  height: 526px;
+  margin: 0 10px;
+}
+
+.course_unit .left > ul li {
+  position: relative;
+  float: left;
+  width: 340px;
+  display: block;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  height: 36px;
+  line-height: 36px;
+  color: #c0e9d6;
+  background: #01c675;
+  border-bottom: 1px solid #00b168;
+  padding: 0px 20px;
+}
+
+.course_unit .left > ul li:hover {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: #f3f3f3 1px solid;
+  padding-left: 18px;
+  width: 338px;
+  color: #FFF;
+}
+
+.course_unit .left .list_1 .hover_div {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  border: 1px solid #ccc;
+  z-index: 1;
+  top: 10px;
+  left: 200px;
+  background: #fff;
+  color: #666;
+  padding: 20px 20px;
+  display: none;
+}
+
+.course_unit .left .list_1 .hover_div a {
+  display: block;
+  float: left;
+  width: 240px;
+  height: 30px;
+  font-family: "微软雅黑";
+  color: #01c675;
+  font-size: 12px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.course_unit .left .list_1 .hover_div a:hover {
+  border: 1px solid #01c675;
+  width: 248px;
+  height: 28px;
+}
+
+.course_unit .left .list_2 {
+  float: left;
+  width: 260px;
+  height: 526px;
+  margin-left: 10px;
+}
+
+/*教学单元课程负责人*/
+.course_unit .right {
+  position: relative;
+  float: left;
+  width: 445px;
+  margin: 10px 0 0 10px;
+  background: #f3f3f3;
+  height: 580px;
+  border: 1px solid #ccc;
+}
+
+.course_unit .right > h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  color: #01c675;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  margin: 10px 0 0 10px;
+}
+
+.course_unit .right > a {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  background: #01c675;
+  right: -2px;
+  top: 2px;
+  line-height: 20px;
+  text-align: center;
+  color: #c0e9d6;
+}
+
+.course_unit .right img {
+  float: left;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.course_unit .right p {
+  float: left;
+  width: 425px;
+  margin: 10px 10px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #333;
+  line-height: 20px;
+}
+
+.course_unit .right p strong {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.text_book {
+  margin: 10px 0 0 10px;
+  float: left;
+  width: 960px;
+  height: 190px;
+  border: 1px #ccc solid;
+  background: #f3f3f3;
+}
+
+.text_book li {
+  float: left;
+  height: 150px;
+  width: 304px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.text_book li img {
+  float: left;
+}
+
+.text_book li h1 {
+  width: 80px;
+  margin-left: 10px;
+  float: left;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  color: #333;
+}
+
+.text_book li p {
+  float: left;
+  width: 190px;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "微软雅黑";
+}

@@ -1,0 +1,10 @@
+{
+    "views/app/index.html": {
+        "css": {},
+        "js": {},
+        "main": {
+            "static/js/app/index.js": []
+        },
+        "async": {}
+    }
+}

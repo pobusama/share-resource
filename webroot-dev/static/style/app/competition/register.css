@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*!
+ * 文件描述
+ * @author reven
+ * @create 2015-10-25 09:54
+ */
+/*报名信息*/
+.sign_up_info {
+  width: 500px;
+  height: 356px;
+  margin: 30px 0 0 300px;
+  padding: 20px 20px;
+  background: #E6E6E6; }
+
+.sign_up_info li {
+  position: relative;
+  width: 480px;
+  margin-left: 26px;
+  height: 50px;
+  line-height: 46px;
+  font-family: "幼圆";
+  font-size: 16px;
+  color: #01c675;
+  font-weight: bold; }
+
+.sign_up_info li > input {
+  position: absolute;
+  left: 95px;
+  float: right;
+  margin-top: 10px;
+  border-right: 1px solid #ccc;
+  width: 180px;
+  border-bottom: 1px solid #ccc;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  padding: 0px 10px;
+  color: #333; }
+
+.sign_up_info li .reset_select {
+  float: right;
+  margin-right: 204px;
+  width: 180px;
+  height: 26px;
+  margin-top: 10px;
+  line-height: 26px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+  background: url(../../../images/select.png) no-repeat -120px 0; }
+
+.sign_up_info li .reset_select:hover {
+  background: url(../../../images/select_act.png) no-repeat -120px 0; }
+
+.sign_up_info li .reset_select select {
+  width: 190px;
+  height: 26px;
+  line-height: 26px;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #666;
+  padding-left: 10px; }
+
+.sign_up_info .sclass > input {
+  width: 154px;
+  margin-right: 0px;
+  border-right: none; }
+
+.sign_up_info .sclass span {
+  display: block;
+  position: absolute;
+  left: 249px;
+  top: 9px;
+  float: right;
+  width: 25px;
+  height: 25px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #fff;
+  background: #01c675;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  font-weight: normal; }
+
+.sign_up_info label {
+  font-weight: normal;
+  padding-left: 30px;
+  float: right;
+  margin-left: 6px;
+  width: 120px;
+  height: 23px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-right: 48px;
+  color: #ff9703;
+  background: url(../../../images/icons.png) no-repeat 5px -258px;
+  font-family: "微软雅黑";
+  font-size: 12px; }
+
+.sign_up_info .info_submit {
+  float: left;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 135px;
+  margin-top: 20px;
+  background: #01c675;
+  color: #fff;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  cursor: pointer;
+  border-bottom: 3px solid #009e5d;
+  border-right: 3px solid #009e5d; }
+
+.sign_up_info .info_submit:hover {
+  border: none; }
+
+#search_input {
+  width: 184px; }

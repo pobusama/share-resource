@@ -1,0 +1,482 @@
+@charset "utf-8";
+/*!
+ * 文件描述
+ * @author reven
+ * @create 2015-10-24 21:03
+ */
+
+a:link{
+  text-decoration: none;
+}
+/*课程介绍*/
+.course_introduce {
+  float: left;
+  width: 720px;
+  height: 300px;
+  background: #f3f3f3;
+}
+
+.course_introduce .img {
+  float: left;
+  width: 310px;
+  height: 230px;
+  margin: 25px 0 25px 20px;
+  background: #fff;
+  border: 1px #01c675 solid;
+}
+
+.course_introduce h1 {
+  float: left;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #01c675;
+  font-size: 26px;
+  font-family: "微软雅黑";
+  font-weight: normal;
+}
+
+.course_introduce a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #01c675;
+  background: #fff;
+  color: #01c675;
+  font-size: 14px;
+  font-family: "微软雅黑"
+}
+
+.course_introduce a:hover {
+  border: 1px solid #00a05e;
+  background: #01c675;
+  color: #fff;
+}
+
+.course_introduce p {
+  float: left;
+  width: 320px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  line-height: 20px;
+  color: #666;
+}
+
+/*反转课堂*/
+.course_point {
+  float: left;
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background: #fff;
+  margin-left: 10px;
+}
+
+.course_point h1 {
+  float: left;
+  width: 250px;
+  background: #eeeeee;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  padding-left: 20px;
+  padding-top: 24px;
+  color: #01c675;
+  height: 60px;
+  border-bottom: 3px #999 solid;
+}
+
+.course_point > ul a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  width: 250px;
+  background: #01c675;
+  border-bottom: 1px #ccc solid;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  color: #c0e9d6;
+}
+
+.course_point > ul a:hover {
+  color: #fff;
+  border-left: #fff 2px solid;
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+.course_point > ul a span {
+  float: left;
+  margin-top: 12px;
+  margin-right: 4px;
+  display: block;
+  background: url(../../../images/icons.png) no-repeat 0 -124px;
+  width: 16px;
+  height: 12px;
+}
+
+.toolbar {
+  width: 250px;
+  height: 35px;
+  background: #f3f3f3;
+  line-height: 35px;
+}
+
+.toolbar a {
+  text-decoration: none;
+  display: block;
+  float: left;
+  margin-top: 8px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 14px;
+  font-family: Verdana;
+  color: #999;
+}
+
+.toolbar a:hover {
+  background: #01c675;
+  color: #fff;
+}
+
+.toolbar .active {
+  background: #01c675;
+  color: #fff;
+}
+
+.toolbar .pre {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  margin-left: 60px;
+  background: url(../../../images/icons.png) no-repeat -12px -169px;
+  width: 12px;
+  height: 16px;
+}
+
+.toolbar .next {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 66px;
+  background: url(../../../images/icons.png) no-repeat 0 -169px;
+  width: 12px;
+  height: 16px;
+}
+
+.toolbar .pre:hover {
+  background: url(../../../images/icons.png) no-repeat -12px -152px;
+}
+
+.toolbar .next:hover {
+  background: url(../../../images/icons.png) no-repeat 0 -152px;
+}
+
+.course_point .item1 {
+  display: none;
+  position: absolute;
+  width: 250px;
+  height: 0px; /*height:172px;*/
+  top: 92px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.course_point .item1 span {
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../../../images/bigger_icons.png) no-repeat 0 -385px
+}
+
+.course_point .item1 ul {
+  position: absolute;
+  width: 250px;
+  height: 165px;
+  background: #eeeeee;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.course_point .item1 ul a {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #666;
+  background: #0F0;
+  padding-left: 20px;
+  background: url(../../../images/icons.png) no-repeat 0 -210px;
+}
+
+.course_point .item1 ul a:hover {
+  background: #0F0;
+  padding-left: 20px;
+  background: url(../../../images/icons.png) no-repeat 0 -15px;
+  color: #01c675;
+}
+
+/*教学相关*/
+.course_source {
+  float: left;
+  width: 980px;
+  height: 295px;
+  margin-top: 10px;
+  background: #fff;
+}
+
+.course_source_items {
+  float: left;
+  position: relative;
+  width: 480px;
+  height: 85px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.course_source_items span {
+  position: absolute;
+  display: block;
+  width: 95px;
+  height: 85px;
+  background: #01c675;
+  left: 0;
+}
+
+.course_source_items h2 {
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  background: #000;
+  z-index: 1;
+  bottom: 0;
+  color: #fff;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  line-height: 30px;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: normal;
+}
+
+.teaching_archives {
+  display: block;
+  background: url(../../../images/bigger_icons.png) no-repeat 2px -785px;
+  width: 95px;
+  height: 75px;
+  margin: 5px auto;
+}
+
+.auxiliary_system {
+  display: block;
+  background: url(../../../images/bigger_icons.png) no-repeat 6px -1104px;
+  width: 95px;
+  height: 75px;
+  margin: 5px auto;
+}
+
+.online_study {
+  display: block;
+  background: url(../../../images/bigger_icons.png) no-repeat 2px -863px;
+  width: 95px;
+  height: 75px;
+  margin: 5px auto;
+}
+
+.fragment_study {
+  display: block;
+  background: url(../../../images/bigger_icons.png) no-repeat -1px -942px;
+  width: 95px;
+  height: 75px;
+  margin: 5px auto;
+}
+
+.self_study {
+  display: block;
+  background: url(../../../images/bigger_icons.png) no-repeat -1px -605px;
+  width: 95px;
+  height: 75px;;
+  margin: 5px auto;
+}
+
+.practice_study {
+  display: block;
+  background: url(../../../images/bigger_icons.png) no-repeat 1px -1014px;
+  width: 95px;
+  height: 75px;
+  margin: 5px auto;
+}
+
+.course_source_items ul {
+  position: absolute;
+  width: 360px;
+  height: 85px;
+  background: #eeeeee;
+  left: 105px;
+  padding: 5px 0 0 30px;
+}
+
+.course_source_items ul a {
+  text-decoration: none;
+  display: block;
+  float: left;
+  color: #666;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  height: 24px;
+  line-height: 24px;
+  width: 80px;
+}
+
+.course_source_items ul a:hover {
+  color: #01c675;
+}
+
+/*教学相关选项点击出现页面*/
+#teaching_program_list {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  width: 200px;
+  height: 520px;
+  background: url(../../../images/bg.png);
+  left: -200px;
+  bottom: 0px;
+  border: 1px #CCC solid;
+}
+
+#teaching_program_list ul a {
+  display: block;
+  float: left;
+  width: 160px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #666;
+  padding-left: 20px;
+  background: url(../../../images/icons.png) no-repeat 0 -32px;
+  border: 1px #999 solid;
+  font-weight: bold;
+}
+
+#teaching_program_list ul a:hover {
+  padding-left: 20px;
+  background: url(../../../images/icons.png) no-repeat 0 -16px;
+  color: #01c675;
+  border: 1px #01c675 solid;
+}
+
+#teaching_program_list ul .active {
+  padding-left: 20px;
+  background: url(../../../images/icons.png) no-repeat 0 -16px;
+  color: #01c675;
+  border: 1px #01c675 solid;
+}
+
+#teaching_program_mian {
+  position: relative;
+  display: none;
+  position: absolute;
+  z-index: 3;
+  width: 768px;
+  height: 520px;
+  background: url(../../../images/bg.png);
+  right: -180px;
+  bottom: 0px;
+  border: 1px #CCC solid;
+}
+
+#teaching_program_mian > span {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  right: 0px;
+  border: #CCC;
+  background: url(../../../images/icons.png) no-repeat 2px -191px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.text_area {
+  position: absolute;
+  width: 748px;
+  height: 480px;
+  border: solid 1px #01c675;
+  color: #01c675;
+  font-size: 20px;
+  line-height: 480px;
+  text-align: center;
+  font-family: "幼圆";
+  left: 10px;
+  top: 30px;
+  background: #FFF;
+  z-index: 0;
+}
+
+button {
+  font-family: "微软雅黑";
+}
+
+.glyphicon {
+  margin-right: 5px;
+}
+
+/*模态框样式*/
+.modal .modal-dialog {
+
+  margin: 175px auto;
+  margin-left: 400px;
+  width: 500px;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-family: "微软雅黑";
+}
+
+.modal-title {
+  color: #01c675;
+  font-size: 20px;
+  font-family: "微软雅黑";
+}
+
+.modal-body {
+  padding: 20px 60px;
+}
+
+.modal-body ul li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  margin-bottom: 10px;
+}
+
+.modal-body ul li a:hover {
+  color: #01c675;
+}
